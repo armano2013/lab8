@@ -9,12 +9,15 @@ display: inline-block;
 div{
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: inherit;
+  margin-left: inherit;
   box-shadow: 0px 10px 5px #bccae0;
 }
+.round{
+  border-radius: 40%;
+}
 html {
-  background: url(sky.png) no-repeat center center fixed; 
+  background: url(sky.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,6 +25,6 @@ html {
 }
 
 #form{
-display: none;
+display: inline-block;
 
 }
