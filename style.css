@@ -4,6 +4,7 @@ margin: 10px;
 width: 100px;
 height: 100px;
 display: inline-block;
+border-radius: 40%;
 }
 
 div{
@@ -13,9 +14,7 @@ div{
   margin-left: inherit;
   box-shadow: 0px 10px 5px #bccae0;
 }
-.round{
-  border-radius: 40%;
-}
+
 html {
   background: url(sky.png) no-repeat center center fixed;
   -webkit-background-size: cover;
