@@ -3,8 +3,16 @@ $(function(){
    $('#chart').toggle();
    $('form').toggle();
 });
-$('.seat').click(function(){
-  $('form').show();
+//$('.seat').click(function(){
+  //$('form').show();
+});
+$('#submit').click(function(){
+  $('form').toggle();
+  $('#chart').toggle();
+});
+$('#cancel').click(function(){
+  $('form').toggle();
+  $('#chart').toggle();
 });
 });
 
