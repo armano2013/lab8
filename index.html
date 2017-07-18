@@ -4,75 +4,78 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-  <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Book Your Next Trip Here</title>
+  </head>
+
+  <body>
+    <div  align="center">
+      <div id="chart">
+        <div >
+          <div class="seat" id="A1"></div>
+          <div class="seat" id="A2"></div>
+          <div class="seat" id="A3"></div>
+          <div class="seat" id="A4"></div>
+          <div class="seat" id="A5"></div>
+          <div class="seat" id="A6"></div>
+        </div>
+
+        <div >
+          <div class="seat" id="B1"></div>
+          <div class="seat" id="B2"></div>
+          <div class="seat" id="B3"></div>
+          <div class="seat" id="B4"></div>
+          <div class="seat" id="B5"></div>
+          <div class="seat" id="B6"></div>
+        </div>
+
+        <div >
+          <div class="seat" id="C1"></div>
+          <div class="seat" id="C2"></div>
+          <div class="seat" id="C3"></div>
+          <div class="seat" id="C4"></div>
+          <div class="seat" id="C5"></div>
+          <div class="seat" id="C6"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="form" class="alert alert-info">
+        <form>
+            <h2 class="text-center h1">Seat Request Submission Form</h2>
+            <br>
+            <label class="h2">First Name:</label>
+            <input id="FirstName" type="text" class="form-control form-control-lg" placeholder="Add First Name" name="firstName" placeholder="First Name">
+      
+            <label class="h2">Last Name:</label>
+            <input id="lastName" type="text" class="form-control" placeholder="Add Last Name" name="firstName" placeholder="First Name">
+
+            <label class="h2">Seat Number:</label>
+            <input id="seatNum" type="text" class="form-control" placeholder="Seat Number" name="firstName" placeholder="First Name">
+            <p class="h5">This number has been automatically entered for you.</p>
+            <br>
+
+            <input id="submit" type="cancel" value="Submit" name="Submit" class="btn btn-primary btn-lg">
+            <input id="cancel" type="submit" value="Cancel" name="Cancel" class="btn btn-danger btn-lg">
 
 
-</head>
-
-<body>
-  <div class="container" align="center">
-    <div id="chart">
-      <div class="row">
-        <div class="col-xs-2 seat" id="A1"></div>
-        <div class="col-xs-2 seat" id="A2"></div>
-        <div class="col-xs-2 seat" id="A3"></div>
-        <div class="col-xs-2 seat" id="A4"></div>
-        <div class="col-xs-2 seat" id="A5"></div>
-        <div class="col-xs-2 seat" id="A6"></div>
+        </form>
       </div>
 
-    <div class="row">
-      <div class="col-xs-2 seat" id="B1"></div>
-      <div class="col-xs-2 seat" id="B2"></div>
-      <div class="col-xs-2 seat" id="B3"></div>
-      <div class="col-xs-2 seat" id="B4"></div>
-      <div class="col-xs-2 seat" id="B5"></div>
-      <div class="col-xs-2 seat" id="B6"></div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-2 seat" id="C1"></div>
-      <div class="col-xs-2 seat" id="C2"></div>
-      <div class="col-xs-2 seat" id="C3"></div>
-      <div class="col-xs-2 seat" id="C4"></div>
-      <div class="col-xs-2 seat" id="C5"></div>
-      <div class="col-xs-2 seat" id="C6"></div>
-  </div>
-</div>
-
-
-
-<div id="form">
-
-<form>
-    <div  class="form-group">
-      <label>First Name:</label>
-      <input type="text" class="form-control" placeholder="Add Name" name="firstName" placeholder="First Name">
-
-      <label>Last Name:</label>
-      <input type="text" class="form-control" placeholder="Add Name" name="firstName" placeholder="First Name">
-
-      <label>Seat Number:</label>
-      <input type="text" class="form-control" placeholder="Add Name" name="firstName" placeholder="First Name">
-    </div>
-
-
-</form>
-
-  </p>
-  </form>
-</div>
-</div>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="index.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
 </html>
