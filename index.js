@@ -1,12 +1,11 @@
 $(function(){
   $('.seat').click(function(){
    $('#chart').toggle();
+   $('form').toggle();
 });
-$('form').click(function(){
-  $('form').toggle();
-})
-$(form).on(’submit’, function(){
- });
+$('.seat').click(function(){
+  $('form').show();
+});
 });
 
 // event handerler funciton
