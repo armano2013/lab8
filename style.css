@@ -6,8 +6,8 @@ height: 100px;
 display: inline-block;
 border-radius: 40%;
 }
-#A1{
-  background-color: black;
+#chart{
+  background-color: none;
 }
 div{
   margin-top: 40px;
@@ -37,5 +37,5 @@ body {
 
 
 #form{
-display: inline-block;
+display: none;
 }
