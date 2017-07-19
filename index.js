@@ -7,10 +7,7 @@ $(function(){
 
   });
 
-  $('.seat').click(function(){
-  $('#chart').toggle();
-  $('#form').toggle();
- });
+
 $('.seat').click(function(){
   $('#form').show();
  });
