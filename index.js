@@ -1,21 +1,38 @@
+var reservedSeats = {};
+
 $(function(){
+
+  $('form').on('submit', function(event){
+    event.preventDefault();
+
+  });
+
   $('.seat').click(function(){
-   $('#chart').toggle();
-   $('form').toggle();
-});
+  $('#chart').toggle();
+  $('#form').toggle();
+ });
 $('.seat').click(function(){
-  $('form').show();
-});
+  $('#form').show();
+ });
 $('#submit').click(function(){
-  $('form').toggle();
+  $('#form').toggle();
   $('#chart').toggle();
-});
+ });
 $('#cancel').click(function(){
-  $('form').toggle();
+  $('#form').toggle();
   $('#chart').toggle();
-});
+
+ // reservedSeats[seatName] = {
+ //   customerName: name,
+ //   number: phoneNumber
+ // }
+
+ });
 });
 
+
+/*$(this).trigger('reset'); for the form to reset
+add a reserved class to call upon it in order to show reserved seat*/
 // event handerler funciton
 // $('form').submit(function(evt){
 // evt.preventDefault();
