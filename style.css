@@ -5,16 +5,21 @@ width: 100px;
 height: 100px;
 display: inline-block;
 border-radius: 40%;
+font-size: 20px;
 }
 #chart{
   background-color: none;
 }
-div{
+
+.reserved {
+  background-color: red;
+}
+
+/*div{
   margin-top: 40px;
   margin-bottom: 40px;
   margin-right: inherit;
   margin-left: inherit;
-  box-shadow: 0px 10px 5px #bccae0;
   background: url(sky.png) no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,7 +27,7 @@ div{
   background-size: cover;
 
 }
-body {
+*//*body {
   animation: colorchange 100s;
   -webkit-animation: colorchange 100s;
 }
@@ -34,8 +39,4 @@ body {
   75%  {background: #FD1C03;}
   100% {background: #FF00FF;}
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d1a3c4cfb02c1a86c7c5721e062e0a388208a9b9
+*/
